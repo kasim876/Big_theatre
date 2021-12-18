@@ -28,7 +28,7 @@ ul, li {
     padding: 0;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
-    font-style: 16px;
+    font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -124,6 +124,10 @@ a:hover {
 
 .nav_menu p {
     margin-right: 63px;
+}
+
+.burger_menu {
+    display: none;
 }
 
 .nav_tel:after {
@@ -276,10 +280,17 @@ a:hover {
     transform: scale(1.1);
 }
 
+.nomination {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
 .partner_of_theatre {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+    flex-wrap: wrap;
 }
 
 .footer {
@@ -287,26 +298,28 @@ a:hover {
 }
 
 .footer_flex {
-    margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
-.contacts_form {
+.footer_form {
     display: flex;
     justify-content: space-between;
-    width: 770px;
+    width: 730px;
+    margin: 0 auto;
 }
 
 .footer_input {
-    width: 390px;
     display: flex;
-    justify-content: space-between;
+    width: 390px;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.input_name,
-.input_company {
+.input_company,
+.input_name {
     margin-bottom: 30px;
 }
 
@@ -357,4 +370,124 @@ a:hover {
     line-height: 1.5em;
     color: #989898;
     margin-bottom: 30px;
+}
+
+
+
+
+
+@media screen and (max-width: 1110px) {
+    .container {
+        width: 960px;
+    }
+
+    .nav {
+        font-size: 14px;
+    }
+
+    .header_content_title {
+        font-size: 54px;
+    }
+
+    .footer_contact {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+
+    .nav_menu {
+        display: none;
+    }
+
+    .burger_menu {
+        display: block;
+    }
+
+    .burger_menu:hover {
+        fill: #D1A954;
+    }
+
+    .header_content_article {
+        margin-top: 25px;
+    }
+
+    .article {
+        margin-top: 0;
+    }
+
+    .slider_img {
+        width: 250px;   
+    }
+
+    .about_theatre_article {
+        display: block;
+        text-align: center; 
+    }
+
+    .article_the_best {
+        margin: 0 auto;
+    }
+
+    .few_numbers_article_title {
+        margin-top: 40px;
+    }
+
+    .img_article {
+        margin-top: 40px;
+    }
+
+    .partner_of_theatre img {
+        width: 150px;
+    }
+
+    .footer_input {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: 415px;
+    }
+    
+    .header_content {
+        display: block;
+    }
+
+    .header_content_article {
+        width: 420px;
+    }
+
+    .btn_header {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .slider {
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .article_the_best_p {
+        width: 420px;
+    }
+
+    .our_prodution_images img {
+        width: 350px;
+    }
+
+    .footer_form {
+        display: block;
+    }
+
+    .author p {
+        font-size: 10px;
+    }
 }
