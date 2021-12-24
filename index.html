@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,11 +32,9 @@
                 </div>
                 <div>
                     <a href="#">
-                        <svg width="40" height="25" viewBox="0 0 40 25" fill="#fff" xmlns="http://www.w3.org/2000/svg" class="burger_menu">
-                            <rect width="40" height="5" />
-                            <rect y="20" width="40" height="5"/>
-                            <rect y="10" width="40" height="5"/>
-                        </svg>                     
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="white" xmlns="http://www.w3.org/2000/svg" class="burger_menu">
+                            <path d="M6.66675 18.3333H26.6667V21.6667H6.66675V18.3333ZM6.66675 10H33.3334V13.3333H6.66675V10ZM6.66675 30H18.7251V26.6667H6.66675V30Z"/>
+                        </svg>             
                     </a>
                 </div>
                 <div class="nav_tel">
@@ -114,7 +112,16 @@
     </section>
     <section>
         <div class="container">
-            <img src="img/nominaciya.jpg" alt="" class="nomination">
+            <div class="rating"> 
+                <p class="raiting_years">
+                    2018 <br>
+                    2019 <br>
+                    2020 
+                </p>
+                <img src="img/stars.svg" alt="" class="stars">
+                <p class="raiting_p">Лучший театр <br> по мнению театральных <br> критиков Парижа</p>
+                <img src="img/nomination.jpg" alt="" class="raiting_img">
+            </div>
         </div>
     </section>
     <section class="partners_of_theatre" id="partners_of_theatre">
@@ -138,29 +145,23 @@
         <div class="container">
             <h3 class="footer_title"><span class="gold_word">стать</span> меценатом</h3>
             <div class="footer_flex">
-                <div class="footer_contact">
+                <div class="footer_contacts">
                     <div>
-                        <ul type="none">
-                            <li>
-                                <a href="tel:+78121234555">+7 (812) 123-45-55</a>
-                            </li>
-                            <li>
-                                <a href="tel:+78121234566">+7 (812) 123-45-66</a>
-                            </li>
-                        </ul>
+                        <p class="footer_contact">
+                            <a href="tel:+7 (812) 123-45-55">+7 (812) 123-45-55</a>
+                        </p>
+                        <p class="footer_contact">
+                            <a href="tel:+7 (812) 123-45-66">+7 (812) 123-45-66</a>
+                        </p>
                     </div>  
-                    <div>
-                        <ul type="none">
-                            <li>
-                                <a href="mailto:info@theater.ru">info@theater.ru</a>
-                            </li>
-                            <li>
-                                г. санкт-петербург, невский 140
-                            </li>
-                        </ul>
+                    <div >
+                        <p class="footer_contact">
+                            <a href="mailto:info@theater.ru">info@theater.ru</a>
+                        </p>
+                        <p class="footer_contact">г. санкт-петербург, невский 140</p>
                     </div>
                 </div>
-                <div class="footer_form">
+                <form action="#" class="footer_form">
                     <div class="footer_input">
                         <input type="text" placeholder="Имя" class="input_name">
                         <input type="text" placeholder="Компания" class="input_company">
@@ -174,7 +175,7 @@
                             Отправить
                         </a>
                     </div>
-                </div>
+                </form>
             </div>
             <div class="line_footer"></div>
             <div class="author">
