@@ -130,6 +130,30 @@ a:hover {
     display: none;
 }
 
+.open {
+    display: block!important;
+    position: absolute;
+    background-color: #333;
+    width: 300px;
+    height: 100%;
+    margin-top: -50px;
+    padding-top: 50px;
+}
+
+.close_off {
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.close_off:hover {
+    fill: #D1A954;
+}
+
+.close_on {
+    display: block;
+    cursor: pointer;
+}
+
 .nav_tel:after {
     content: '';
     display: block;
