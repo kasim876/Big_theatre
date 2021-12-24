@@ -221,6 +221,7 @@ a:hover {
 }
 
 .about_theatre_article {
+    margin: 0 auto;
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -268,8 +269,9 @@ a:hover {
 }
 
 .our_prodution_images {
-    margin-top: 100px;
+    margin: 0 auto;
     text-align: center;
+    margin-top: 100px;
 }
 
 .our_prodution_img {
@@ -280,17 +282,47 @@ a:hover {
     transform: scale(1.1);
 }
 
-.nomination {
-    width: 90%;
-    display: block;
-    margin: 0 auto;
+.rating {
+    display: flex;
+}
+
+.raiting_years {
+    position: absolute;
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #D1A954;
+    font-size: 72px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    margin-top: 126px;
+    margin-left: 190px;
+}
+
+.stars {
+    position: absolute;
+    margin-top: 171px;
+    margin-left: 475px;
+}
+
+.raiting_p {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 475px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5em;
+}
+
+.raiting_img {
+    width: 1110px;
+    height: 550px;
 }
 
 .partner_of_theatre {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 80px;
-    flex-wrap: wrap;
 }
 
 .footer {
@@ -299,16 +331,24 @@ a:hover {
 
 .footer_flex {
     display: flex;
-    justify-content: space-between;  
-    flex-wrap: wrap;
-    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.footer_contact {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
 }
 
 .footer_form {
     display: flex;
     justify-content: space-between;
     width: 730px;
-    margin: 0 auto;
 }
 
 .footer_input {
@@ -375,8 +415,227 @@ a:hover {
 
 
 
+@media screen and (max-width: 1140px) {
+    .container {
+        width: 768px;
+    }
 
-@media screen and (max-width: 1110px) {
+    .nav_menu {
+        display: none;
+    }
+
+    .burger_menu {
+        display: block;
+        transition: all 0.3s ease;
+    }
+    
+    .burger_menu:hover {
+        fill: #D1A954;
+    }
+
+    .slider {
+        margin-left: auto;
+    }
+
+    .about_theatre_article {
+        flex-wrap: wrap;
+    }
+
+    .img_article {
+        display: none;
+    }
+
+    .raiting_years {
+        margin-left: 118px;
+    }
+
+    .stars,
+    .raiting_p {
+        margin-left: 360px;
+        font-size: 30px;
+    }
+
+    .raiting_img {
+        width: 768px;
+    }
+    
+    .partner_of_theatre {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .partner_of_theatre img {
+        margin-top: 80px;
+    }
+
+    .footer_flex {
+        display: block;
+    }
+
+    .footer_contacts {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+
+    .footer_contact {
+        text-align: right;  
+    }
+
+    .footer_form {
+        width: 768px;
+    }
+}
+
+
+@media screen and (max-width: 798px) {
+    .container {
+        width: 425px;
+    }
+
+    .header_content {
+        flex-wrap: wrap;
+    }
+
+    .header_content_title {
+        font-size: 48px;
+    }
+
+    .article {
+        margin-top: 0;
+    }
+
+    .slider {
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .few_numbers_article_title {
+        margin-top: 100px;
+    }
+
+    .raiting_img {
+        width: 425px;
+    }
+
+    .raiting_years {
+        margin-left: 10px;
+        font-size: 54px;
+    }
+
+    .stars,
+    .raiting_p {
+        margin-left: 180px;
+        font-size: 18px;
+    }
+
+    .footer_form {
+        display: block;
+        width: 425px;
+    }
+
+    .footer_input {
+        width: 425px;
+    }
+
+    .footer_textarea {
+        width: 425px;
+        margin-top: 25px;
+    }
+    
+    textarea {
+        width: 100%;
+    }
+    
+    .btn_footer {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .confidentiality {
+        position: absolute;
+        margin-top: 350px;
+        width: 425px;
+    }
+
+    .line_footer {
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 455px) {
+    .container {
+        width: 320px;
+    }
+
+    .slider_img {
+        width: 100%;
+    }
+
+    .our_prodution_images {
+        width: 320px;
+    }
+
+    .our_prodution_images img {
+        width: 100%;
+    }
+
+    .raiting_img {
+        width: 320px;
+    }
+
+    .stars {
+        width: 120px;
+        margin-top: 150px;
+    }
+
+    .raiting_p {
+        margin-top: 200px;
+    }
+
+    .partner_of_theatre {
+        width: 320px;
+    }
+
+    .partner_of_theatre img {
+        width: 100%;
+    }
+
+    .footer_contact {
+        font-size: 12px;
+    }
+
+    .footer_form {
+        width: 320px;
+    }
+
+    .footer_input {
+        width: 320px;
+    }
+
+    input {
+        width: 150px;
+    }
+
+    .footer_textarea {
+        width: 320px;
+    }
+
+    .confidentiality {
+        width: 320px;
+    }
+
+    .line_footer {
+        margin-top: 150px;
+    }
+}
+
+
+
+
+/* @media screen and (max-width: 1110px) {
     .container {
         width: 960px;
     }
@@ -516,4 +775,4 @@ a:hover {
     ul, li {
         font-size: 14px;
     }
-}
+} */
