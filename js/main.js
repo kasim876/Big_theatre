@@ -1,15 +1,11 @@
 "use strict"
 
-document.querySelector('.burger_menu').addEventListener("click", myFunction);
+document.querySelector('.nav__menu').addEventListener("click", navMenu);
 
-function myFunction() {
-	document.querySelector('.nav_menu').classList.toggle("open");
-	document.querySelector('.close_off').classList.toggle("close_on")
+function navMenu() {
+	document.querySelector('.nav__menu__open').classList.toggle('change')
+	document.querySelector('.nav__menu__close').classList.toggle('change')
 }
 
-document.querySelector('.close_off').addEventListener("click", myFunction2);
+document.querySelector('.nav__menu__close').addEventListener("click", navMenu);
 
-function myFunction2() {
-	document.querySelector('.nav_menu').classList.toggle("open");
-	document.querySelector('.close_off').classList.toggle("close_on")
-}

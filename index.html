@@ -2,196 +2,228 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="css/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Большой театр</title>
+    <title>БОЛЬШОЙ ТЕАТР</title>
 </head>
 <body>
-    <header class="header" id="header">
-        <div class="container">
-            <div class="nav">
-                <div class="nav_menu">
-                    <p>
-                        <a href="#header">главная</a>
-                    </p>
-                    <p>
-                        <a href="#about_theatre">о театре</a>
-                    </p>
-                    <p>
-                        <a href="#our_production">наши постановки</a>
-                    </p>
-                    <p>
-                        <a href="#partners_of_theatre">партнёры театра</a>
-                    </p>
-                    <p>
-                        <a href="#footer">контакты</a>
-                    </p>
-                </div>
-                <div>
-                    <a href="#">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="white" xmlns="http://www.w3.org/2000/svg" class="burger_menu">
-                            <path d="M6.66675 18.3333H26.6667V21.6667H6.66675V18.3333ZM6.66675 10H33.3334V13.3333H6.66675V10ZM6.66675 30H18.7251V26.6667H6.66675V30Z"/>
-                        </svg>             
-                    </a>
-                </div>
-
-                <div>
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg" class="close_off">
-                        <path d="M16 1.4L14.6 0L8 6.6L1.4 0L0 1.4L6.6 8L0 14.6L1.4 16L8 9.4L14.6 16L16 14.6L9.4 8L16 1.4Z" />
-                    </svg>
-                </div>
-
-                <div class="nav_tel">
-                    <p>
-                        <a href="tel:+74951234567">+7 495 123-45-67</a>
-                    </p>
-                </div>
-            </div>
-            <div class="header_content">
-                <div class="article">
-                    <h1 class="header_content_title">
-                        большой театр
-                    </h1>
-                    <p class="header_content_article">
-                        Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.
-                    </p>
-                    <a href="#" class="btn_header">
-                        афиша
-                    </a>
-                </div>
-                <div class="slider">
-                    <img src="img/slider-container.png" alt="" class="slider_img">
-                    <div class="slider_arrow">
-                       
-                            <a href="#">
-                                <div class="arrow_prev">
-                                    <img src="img/Arrow1.png" alt="">
-                                    <p>пред</p>
-                                </div>
-                            </a>
-                        
-                        
-                            <a href="#">
-                                <div class="arrow_next">
-                                    <p>след</p>
-                                    <img src="img/Arrow2.png" alt="">
-                                </div>
-                            </a>
-                        
-                    </div>
-                </div>
-            </div>
-           
-        </div>
+   <header class="header" id="header">
+   	<div class="nav__menu__open">
+   		<svg width="32" height="32" viewBox="0 0 32 32" fill="#fff" xmlns="http://www.w3.org/2000/svg" class="nav__menu__close">
+				<path d="M24 9.4L22.6 8L16 14.6L9.4 8L8 9.4L14.6 16L8 22.6L9.4 24L16 17.4L22.6 24L24 22.6L17.4 16L24 9.4Z" />
+		</svg>
+   	</div>
+	<div class="container">
+		<nav class="nav">
+			<svg width="28" height="20" viewBox="0 0 28 20" fill="#fff" xmlns="http://www.w3.org/2000/svg" fill="white" class="nav__menu">
+				<path d="M0.666748 8.33333H20.6667V11.6667H0.666748V8.33333ZM0.666748 0H27.3334V3.33333H0.666748V0ZM0.666748 20H12.7251V16.6667H0.666748V20Z" />
+			</svg>
+		    	<ul type="none" class="nav__ul">
+			  <li>
+				<a href="#header">
+				    ГЛАВНАЯ
+				</a>
+			  </li>
+			  <li>
+				<a href="#information">
+				    О ТЕАТРЕ
+				</a>
+			  </li>
+			  <li>
+				<a href="#perfomances">
+				    НАШИ ПОСТАНОВКИ
+				</a>
+			  </li>
+			  <li>
+				<a href="#partners">
+				    ПАРТНЁРЫ ТЕАТРА
+				</a>
+			  </li>
+			  <li>
+				<a href="#form">
+				    КОНТАКТЫ
+				</a>
+			  </li>
+		    </ul>
+		    <a href="tel:+74951234567" class="tel nav__tel">
+			  +7 495 123-45-67
+		    </a>
+		</nav>
+		<div class="offer__wrapper">
+		    <div class="offer">
+			  <h1 class="offer__title">
+				БОЛЬШОЙ ТЕАТР
+			  </h1>
+			  <p class="offer__text">
+				Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.
+			  </p>
+			  <a href="#" class="btn">
+				АФИША
+			  </a>
+		    </div>
+		    <div class="slider">
+			  <img src="img/slider-container.png">
+			  <div class="slider__arrows">
+				<a href="#">
+				    <img src="img/Arrow1.png">
+				    <p>
+					  ПРЕД
+				    </p>
+				</a>
+				<a href="#">
+				    <p>
+					  СЛЕД
+				    </p>
+				    <img src="img/Arrow2.png">
+				</a>
+			  </div>
+		    </div>
+		</div>
+	  </div>
     </header>
-    <section class="about_theatre" id="about_theatre">
-        <div class="container">
-            <h2 class="about_theatre_title"><span class="gold_word">о</span> театре</h2>
-            <div class="about_theatre_article">
-                <div class="article_the_best">
-                    <h4 class="article_the_best_title">самый лучший театр спб</h4>
-                    <p class="article_the_best_p">Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год.</p>
-                </div>
-                <div class="few_numbers_article">
-                    <h4 class="few_numbers_article_title">немного о цифрах</h4>
-                    <img src="img/armchair.svg" alt="">
-                    <p class="few_numbers_article_p"><span class="gold_word">1600</span> посадочных мест</p>
-                    <img src="img/curtain.svg" alt="" class="curtain">
-                    <p class="few_numbers_article_p"><span class="gold_word">350</span> лет истории</p>
-                  </div>
-                <div class="img_article">
-                    <img src="img/fountain.jpg" alt="">
-                </div>
-            </div>
-        </div>
+    <section class="information" id="information">
+	  <div class="container">
+		<h2 class="section__title">
+		    <span>О</span> ТЕАТРЕ
+		</h2>
+		<div class="information__wrapper">
+		    <div>
+			  <h3 class="information__title">
+				САМЫЙ ЛУЧШИЙ ТЕАТР СПБ
+			  </h3>
+			  <p class="information__text">
+				Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год.
+			  </p>
+		    </div>
+		    <div>
+			  <h3 class="information__title">
+				НЕМНОГО О ЦИФРАХ
+			  </h3>
+			  <img src="img/armchair.svg">
+			  <p class="information__string">
+				<span>1600</span> посадочных мест
+			  </p>
+			  <img src="img/curtain.svg" class="information__img">
+			  <p class="information__string">
+				<span>350</span> лет истории
+			  </p>
+		    </div>
+		    <img src="img/fountain.jpg" class="information__wrapper__img">
+		</div>
+	  </div>
     </section>
-    <section id="our_production">
-        <h2 class="our_production_title"><span class="gold_word">наши</span> постановки</h2>
-        <div class="our_prodution_images">
-            <img class="our_prodution_img" src="img/1.jpg" alt="">
-            <img src="img/2.jpg" alt="">
-            <img class="our_prodution_img" src="img/3.jpg" alt="">
-            <img class="our_prodution_img" src="img/4.jpg" alt="">
-        </div>
+    <section class="perfomances" id="perfomances">
+		<h2 class="section__title">
+		    <span>НАШИ</span> ПОСТАНОВКИ
+		</h2>
+	<div class="perfomances__wrapper">
+		<img src="img/1.jpg">
+		<img src="img/2.jpg">
+		<img src="img/3.jpg">
+		<img src="img/4.jpg">
+	</div>
     </section>
-    <section>
-        <div class="container">
-            <div class="rating"> 
-                <p class="raiting_years">
-                    2018 <br>
-                    2019 <br>
-                    2020 
-                </p>
-                <img src="img/stars.svg" alt="" class="stars">
-                <p class="raiting_p">Лучший театр <br> по мнению театральных <br> критиков Парижа</p>
-                <img src="img/nomination.jpg" alt="" class="raiting_img">
-            </div>
-        </div>
+    <section id="raiting">
+	  <div class="container">
+		<div class="raiting">
+		    <div class="raiting__years">
+			  2018
+			  2019
+			  2020
+		    </div>
+		    <div>
+		    	<img src="img/stars.svg" class="stars">
+		    	<p class="raiting__string">
+				Лучший театр по мнению театральных критиков Парижа
+		    	</p>
+		    </div>
+		</div>
+	  </div>
     </section>
-    <section class="partners_of_theatre" id="partners_of_theatre">
-        <div class="container">
-            <h2 class="partners_of_theatre_title"><span class="gold_word">партнёры</span> театра</h2>
-            <div class="partner_of_theatre">
-                <img src="img/gazprom.svg" alt="">
-                <img src="img/gazprom.svg" alt="">
-                <img src="img/gazprom.svg" alt="">
-                <img src="img/gazprom.svg" alt="">
-            </div>
-            <div class="partner_of_theatre">
-                <img src="img/gazprom.svg" alt="">
-                <img src="img/gazprom.svg" alt="">
-                <img src="img/gazprom.svg" alt="">
-                <img src="img/gazprom.svg" alt="">       
-            </div>
-        </div>
+    <section id="partners">
+	  <div class="container">
+		<h2 class="section__title">
+		    <span>ПАРТНЁРЫ</span> ТЕАТРА
+		</h2>
+		<div class="partners">
+			<img src="img/gazprom.svg">
+			<img src="img/gazprom.svg">
+			<img src="img/gazprom.svg">
+			<img src="img/gazprom.svg">
+			<img src="img/gazprom.svg">
+			<img src="img/gazprom.svg">
+			<img src="img/gazprom.svg">
+			<img src="img/gazprom.svg">	
+		</div>	
+	  </div>
     </section>
-    <footer class="footer" id="footer">
-        <div class="container">
-            <h3 class="footer_title"><span class="gold_word">стать</span> меценатом</h3>
-            <div class="footer_flex">
-                <div class="footer_contacts">
-                    <div>
-                        <p class="footer_contact">
-                            <a href="tel:+7 (812) 123-45-55">+7 (812) 123-45-55</a>
-                        </p>
-                        <p class="footer_contact">
-                            <a href="tel:+7 (812) 123-45-66">+7 (812) 123-45-66</a>
-                        </p>
-                    </div>  
-                    <div >
-                        <p class="footer_contact">
-                            <a href="mailto:info@theater.ru">info@theater.ru</a>
-                        </p>
-                        <p class="footer_contact">г. санкт-петербург, невский 140</p>
-                    </div>
-                </div>
-                <form action="#" class="footer_form">
-                    <div class="footer_input">
-                        <input type="text" placeholder="Имя" class="input_name">
-                        <input type="text" placeholder="Компания" class="input_company">
-                        <input type="text" placeholder="Телефон">
-                        <input type="text" placeholder="E-mail">
-                        <p class="confidentiality">* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</p>
-                    </div>
-                    <div class="footer_textarea">
-                        <textarea name="Message" placeholder="Сообщение"></textarea>
-                        <a href="#footer" class="btn_footer">
-                            Отправить
-                        </a>
-                    </div>
-                </form>
-            </div>
-            <div class="line_footer"></div>
-            <div class="author">
-                <p>(с) Все права защищены. Большой театр. 2020</p>
-                <p>Разработано max.lukashenko2017@gmail.com</p>
-            </div>
-        </div>
+    <section id="form">
+	  <div class="container">
+		<h2 class="section__title">
+		    <span>СТАТЬ</span> МЕЦЕНАТОМ
+		</h2>
+		<div class="form">
+			<ul type="none" class="tel">
+			    <li>
+				  <a href="tel:+78121234555">
+					+7 (812) 123-45-55
+				  </a>
+			    </li>
+			    <li>
+				  <a href="tel:+78121234566">
+					+7 (812) 123-45-66
+				  </a>
+			    </li>
+			    <li>
+				  <a href="mailto:INFO@THEATER.RU">
+					INFO@THEATER.RU
+				  </a>
+			    </li>
+			    <li>
+				  Г. САНКТ-ПЕТЕРБУРГ, НЕВСКИЙ 140
+			    </li>
+			</ul>
+			<div class="form__wrapper">
+				<form action="#" id="register">
+				    <div class="inputs">
+				    	<input type="text" name="name" placeholder="Имя" required
+>
+					<input type="text" name="company" placeholder="Компания" required
+>
+				 	<input type="tel" name="tel" placeholder="Телефон" required
+>
+					<input type="mail" name="mail" placeholder="E-mail" required
+>
+				    </div>
+				    <textarea name="Message" placeholder="Сообщение"></textarea>
+				</form>
+				<div class="form__send">
+				    <p class="form__string">
+					  * Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.
+				    </p>
+				    <button class="btn footer__btn" form="register" type="reset">
+					  ОТПРАВИТЬ
+				    </button>
+				</div>
+			</div>
+		</div>
+	  </div>
+    </section>
+    <footer id="footer">
+	  <div class="container">
+		<div class="footer">
+		    <p>
+			  (с) Все права защищены. Большой театр. 2020
+		    </p>
+		    <p>
+			  Разработано max.lukashenko2017@gmail.com
+		    </p>
+		</div>
+	  </div>
     </footer>
-
 
 
 <script src="js/main.js"></script>
