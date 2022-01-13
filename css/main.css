@@ -64,7 +64,7 @@ span {
 }
 
 .back_to_top:hover {
-    color: #fff;
+    color: #000;
 }
 
 .back_to_top-show {
@@ -96,12 +96,13 @@ span {
 .nav__menu {
     background: #333;
     position: absolute;
-    transition-duration: 0.25s;
     left: -100%;
     height: 100%;
     width: 100%;
     visibility: hidden;
+    opacity: 0;
     margin-top: -50px;
+    transition: opacity .2s linear,left .2s linear,visibility .2s linear;
 }
 
 .nav__menu ul {
@@ -121,6 +122,7 @@ span {
 .open {
     left: 0%;
     visibility: visible;
+    opacity: 1;
 }
 
 .nav {
@@ -270,10 +272,6 @@ span {
 
 .information__img {
     margin-top: 30px;
-}
-
-.perfomances__wrapper {
-    text-align: center;
 }
 
 .raiting {
