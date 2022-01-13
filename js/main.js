@@ -4,8 +4,7 @@ const next = document.querySelector(".arrow1__svg"),
       prev = document.querySelector(".arrow2__svg"),
       items = document.querySelectorAll(".nav__menu__item"),
       goTopBtn = document.querySelector(".back_to_top"),
-      slides = document.querySelectorAll(".slide"),
-      modal = document.querySelector(".modal");
+      slides = document.querySelectorAll(".slide");
 
 let index = 0;
 
@@ -68,4 +67,3 @@ goTopBtn.addEventListener("click", returnTop);
 window.addEventListener("scroll", trackScroll);
 document.querySelector(".nav__menu__btn").addEventListener("click", navMenu);
 document.querySelector(".nav__menu__close").addEventListener("click", navMenu);
-modal.addEventListener("click", navMenu);
